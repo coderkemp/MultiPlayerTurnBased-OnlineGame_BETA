@@ -1,0 +1,181 @@
+.colour{
+    color: orangered;
+}
+
+h1 {
+    color: blue;
+}
+
+p {
+    color: red;
+}
+
+#background{ 
+    fill: #666; 
+    stroke: black; 
+    stroke-width: 2px;
+}
+
+#SaveLoadOutput {
+	position: absolute;
+	left: 600px;
+	top: 120px;	
+}
+
+#board {
+  position: absolute;
+  top: 350px;
+  left: 500px;
+}
+
+#testBoard {
+  position: absolute;
+  top: 350px;
+  left: 1000px;
+}
+
+#diceValue{
+  font-weight: bold;
+}
+.square {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: sandybrown;
+  border: 1px solid;
+}
+
+#canvas {
+  position: absolute;
+  top: 350px;
+  left: 500px;
+  
+  /*top: 100px;
+  left: 100px;*/
+}
+
+#testcanvas {
+  position: absolute;
+  top: 150px;
+  left: 500px;
+  
+  /*top: 100px;
+  left: 100px;*/
+}
+.player {
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 1px solid;
+}
+
+.rolledValue{
+  font-weight: bold;
+}
+
+#top{
+     color: darkorange;
+     font-family: "Times New Roman", Times, sans-serif;
+     font-size: 70px;
+     font-weight: bold;
+    
+}
+
+#welcome h1{
+     color: blue;
+     text-align: center;
+   
+}
+#welcome h5{
+     color: darkgreen;
+     text-align: center;
+   
+}
+
+input.welcomeButton {
+width: 350px;
+padding: 20px;
+cursor: pointer;
+font-weight: bold;
+font-size: 150%;
+background: #3366cc;
+color: #fff;
+border: 1px solid #3366cc;
+border-radius: 10px;
+margin:auto;
+display:block;
+}
+
+input.welcomeButton:hover {
+color: #ffff00;
+background: #000;
+border: 1px solid #fff;
+}
+
+#logform label{
+    font-size: 30px;
+}
+
+#form_container label{
+    font-size: 30px;
+}
+
+#dicePos{
+  position: absolute;
+  top:  850px;
+  left: 950px;
+}
+
+#green h4{
+  position: absolute;
+  top:  250px;
+  left: 500px; 
+  color: green;
+  font-weight: bold;
+}
+
+#red h4{
+  position: absolute;
+  top:  280px;
+  left: 500px; 
+  color: red;
+  font-weight: bold;
+}
+
+#gameid{
+  position: absolute;
+  top:  200px;
+  left: 900px; 
+}
+
+#multiView h4{
+  position: absolute;
+  top:  280px;
+  right: 300px; 
+  color: black;
+  font-weight: bold;
+}
+
+#rules h3{
+  position: absolute;
+  top:  20px;
+  left: 900px; 
+  color: blue;
+  font-weight: bold;
+}
+
+#rules h4{
+  position: absolute;
+  top:  40px;
+  left: 700px; 
+  color: black;
+  font-weight: bold;
+}
+
+
+#SaveLoadOutput{
+  position: absolute;
+  top:  250px;
+  left: 900px;
+}

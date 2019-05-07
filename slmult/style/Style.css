@@ -1,0 +1,12 @@
+#AvailablePlayers{font-size:19px;font-weight:normail;}
+
+
+
+#ChatMessages{position: absolute;
+	left: 250px;
+	top: 120px;	}
+#ChatBig{position: absolute;
+	left: 250px;
+	top: 50px;	}
+.UserNameS{color:#7CB9E8;;}
+.UserNameS:hover{text-decoration: underline;cursor: pointer;}

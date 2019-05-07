@@ -1,0 +1,138 @@
+.colour{
+    color: orangered;
+}
+
+h1 {
+    color: blue;
+}
+
+p {
+    color: red;
+}
+
+#background{ 
+    fill: #666; 
+    stroke: black; 
+    stroke-width: 2px;
+}
+
+#SaveLoadOutput {
+	position: absolute;
+	left: 600px;
+	top: 120px;	
+}
+
+#board {
+  position: absolute;
+  top: 350px;
+  left: 500px;
+}
+
+#testBoard {
+  position: absolute;
+  top: 350px;
+  left: 1000px;
+}
+
+#diceValue{
+  font-weight: bold;
+}
+.square {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: sandybrown;
+  border: 1px solid;
+}
+
+#canvas {
+  position: absolute;
+  top: 350px;
+  left: 500px;
+  
+  /*top: 100px;
+  left: 100px;*/
+}
+
+#testcanvas {
+  position: absolute;
+  top: 150px;
+  left: 500px;
+  
+  /*top: 100px;
+  left: 100px;*/
+}
+.player {
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 1px solid;
+}
+
+.rolledValue{
+  font-weight: bold;
+}
+
+#top{
+     color: darkorange;
+     font-family: "Times New Roman", Times, sans-serif;
+     font-size: 70px;
+     font-weight: bold;
+    
+}
+
+#welcome h1{
+     color: white;
+     text-align: center;
+   
+}
+#welcome h5{
+     color: white;
+     text-align: center;
+   
+}
+
+input.welcomeButton {
+width: 350px;
+padding: 20px;
+cursor: pointer;
+font-weight: bold;
+font-size: 150%;
+background: #3366cc;
+color: #fff;
+border: 1px solid #3366cc;
+border-radius: 10px;
+margin:auto;
+display:block;
+}
+
+input.welcomeButton:hover {
+color: #ffff00;
+background: #000;
+border: 1px solid #fff;
+}
+
+#login{
+    text-align: center;
+}
+#username{
+    color: white;
+    font-weight: bold;
+}
+#password{
+    color: white;
+    font-weight: bold;
+}
+#regusername{
+    color: white;
+    font-weight: bold;
+}
+#regpassword{
+    color: white;
+    font-weight: bold;
+}
+#regpassword_again{
+    color: white;
+    font-weight: bold;
+}
