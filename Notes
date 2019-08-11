@@ -1,0 +1,16 @@
+The new IST web server is serenity.ist.rit.edu. It's connected to RIT's Active Directory, so you can use your RIT username and password to connect.
+
+The first time you connect, you'll need to SSH into serenity so your account can be established. From the server documentation:
+
+When you login to IST-Serenity for the first time, your home directory and your web directory (the directory Sites located in your home directory) are created. However, it can take up to 20 minutes for all provisioning tasks to be completed. Until that occurs, the web server cannot access any content you load into that Sites directory, and your MySQL database is not available.
+ 
+
+To SSH in:
+ssh username@serenity.ist.rit.edu
+
+To access in a browser:
+https://serenity.ist.rit.edu/~username/
+
+ 
+
+Note that Serenity is only available on the RIT network. If you're off campus, you'll have to connect to the RIT VPN before accessing Serenity.
