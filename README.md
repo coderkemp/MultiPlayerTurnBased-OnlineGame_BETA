@@ -1,10 +1,10 @@
 # SnakesLaddersGameProject
 Turn Based Game using PHP, AJAX, Javascript
 
-1. The Game is a AJAX driven, PHP/MySQL back ended game.
-2. The environment is dynamically created using PHP & MySQL Database(Used prepared statements to test data against DB).
-3. Chat Feature implemented using AJAX.
-4. Made use of PHP Sessions.
+- The Game is a AJAX driven, PHP/MySQL back ended game.
+- The environment is dynamically created using PHP & MySQL Database(Used prepared statements to test data against DB).
+- Chat Feature implemented using AJAX.
+- Made use of PHP Sessions.
 
                                                    CODE-FLOW
                                      -------------------------------------------
