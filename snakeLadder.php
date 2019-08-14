@@ -1,5 +1,5 @@
 <?php
-session_start();
+session_start();   // Holds the present session information 
 ?>
 
 <!DOCTYPE html>
@@ -33,7 +33,7 @@ session_start();
          <div id=board>
           </div> 
         <canvas id=canvas height = "1000" width = "1000"></canvas>
-        <script type="text/javascript" src="js/Board.js"></script>
+        <script type="text/javascript" src="js/Board.js"></script>    <!-- to populate the board -->
         <?php include ('php_pages/loginForm.php');?>
         <div id="SaveLoadOutput" style="display:none">	
         <input type="submit" id="multiplayer_submit" 

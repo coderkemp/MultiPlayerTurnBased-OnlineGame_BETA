@@ -11,7 +11,7 @@ $("#register_submit").click(function(){
         regpassword_again = $("#regpassword_again").val('');
     } 
     else{
-$.post('php_pages/register.php',{regusername: regusername, regpassword: regpassword},function(data){
+$.post('php_pages/register.php',{regusername: regusername, regpassword: regpassword},function(data){ /* post() call to the database*/
             $('#infoSQL').text(data.msg);
             if(data.loggedin == "true"){
                 registerButton.hide();

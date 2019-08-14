@@ -4,9 +4,9 @@ include_once("../connectToDB.php");
 if(isset($_POST['regusername'])) {
     $username = $_POST['regusername'];
    // $password = $_POST['regpassword'];
-    $password = sha1($_POST['regpassword']);
+    $password = sha1($_POST['regpassword']);    // encrypting the password using "sha1"
     $sql = "INSERT INTO users (UserName,UserPassword) VALUES (:UserName, :UserPassword)";
-    $q = $_db->prepare($sql);
+    $q = $_db->prepare($sql);   // prepared statement
     $q->execute(array(':UserName'=>$username,':UserPassword'=>$password));
     $_SESSION['username'] = $username;
     $_SESSION['password'] = $password; //fix-added
