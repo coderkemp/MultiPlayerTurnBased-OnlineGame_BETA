@@ -14,7 +14,7 @@ Turn Based Game using PHP, AJAX, Javascript
  2. On entering the details for registering, call goes to ConnectToDB.php which will insert values into the UserTable. I am using $_SESSION 
  to store the present user session.
  
- 3. Once the user logs in, from the loginlogout.js page there is a call to CheckLogin.php which ask to click on the multiplayer button to enter chat room.
+ 3. Once the user logs in, from the loginlogout.js page there is a call to CheckLogin.php which prompts to click on the multiplayer button to enter chat room.
  Once the user enters the waiting room, here I am using various concepts of sessions/ajax calls. We can see the list of players through the php code to retrieve from DB.
  
  4. User selects the opponent, opponent gets updated in the DB and user enters the page.
@@ -25,7 +25,7 @@ Turn Based Game using PHP, AJAX, Javascript
  - Dynamic & Faster execution
  - Helps to prevent SQL injection attacks
  
- Used PDO(PHP Data Objects) to connect to the DB. This makes sire that all the database inputs will be treated as text strings.
+ Used PDO(PHP Data Objects) to connect to the DB. This makes sure that all the database inputs will be treated as text strings.
  
  AJAX?
  - Helps to get the data from the database without refreshing the browser. Like in the game, how the chat population is being done in the waiting-room page.
